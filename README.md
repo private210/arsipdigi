@@ -46,7 +46,10 @@ Link Storage
 ```bash
 php artisan storage:link
 ```
-
+Migrate database & seed
+```bash
+php artisan migrate --seed
+```
 Run Jobs Queue
 ```bash
 php artisan queue:work 
